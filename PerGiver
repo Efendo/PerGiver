@@ -1,0 +1,16 @@
+echo Permission Giver by Efendo
+echo --------------------------
+echo
+echo CHMOD Permission:
+read PERM
+echo File:
+read F
+echo File $F will get permission $PERM
+echo "Are you sure [y/n] (n: quit programm | y: continue)?"
+read CHOICE
+if [ $CHOICE = "y" ]; then
+  chmod $PERM $F
+  echo Gave $F permission $PERM
+else
+  echo Aborted!
+fi
