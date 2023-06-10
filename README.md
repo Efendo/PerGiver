@@ -11,5 +11,5 @@ If you get this you may need to give it some permissions.
 1. Open your Terminal
 2. execute this command:
 ````Shell
-chmod 755 PerGiver/PerGiver
+chmod +x PerGiver/PerGiver
 ````
